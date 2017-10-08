@@ -211,4 +211,7 @@ Build:
 
 Run:
 
-        sudo docker run puzzle-diff:latest
+        sudo docker run -v /path/to/local/file1.jpg:/tmp/file1.jpg -v /path/to/local/file2.jpg:/tmp/file2.jpg --rm -it puzzle-diff:latest puzzle-diff /tmp/file1.jpg /tmp/file2.jpg
+
+You need to only change "/path/to/local/file1.jpg" and "/path/to/local/file2.jpg" to fit your parameters.
+

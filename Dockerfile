@@ -11,4 +11,4 @@ RUN ./configure
 RUN make
 RUN make install
 
-ENTRYPOINT puzzle-diff
+#ENTRYPOINT puzzle-diff
