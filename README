@@ -200,3 +200,15 @@ your file system.
 This project is unfortunately not maintained any more. Pull requests are
 always welcome, but I don't use this library any more and I don't have enough
 spare time to actively work on it.
+
+
+            ---------------------- Docker ---------------------------
+
+
+Build:
+
+        sudo docker build -t puzzle-diff .
+
+Run:
+
+        sudo docker build -t puzzle-diff .
