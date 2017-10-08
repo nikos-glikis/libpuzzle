@@ -211,4 +211,4 @@ Build:
 
 Run:
 
-        sudo docker build -t puzzle-diff .
+        sudo docker run puzzle-diff:latest
